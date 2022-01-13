@@ -1,0 +1,29 @@
+{
+  "name": "loggingmiddleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterOehman/loggingmiddleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeterOehman/loggingmiddleware/issues"
+  },
+  "homepage": "https://github.com/PeterOehman/loggingmiddleware#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
